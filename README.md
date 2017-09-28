@@ -1,2 +1,2 @@
-# ttl
-Not right now.
+# Trying to learn
+Learning C simultaneously with GitHub. 
