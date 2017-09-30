@@ -1,16 +1,15 @@
 #include <stdio.h>
 
+int factorial(int num)
+{
+    if(num<0)
+        return -1;
+    if(num==0)
+        return 1;
+    return (num * factorial(num-1));
+}
 int main()
 {
-    ineligible:
-        printf("You are not eligilible to vote!\n");
-
-    printf("Enter your age: ");
-    int age;
-    scanf("%d", &age);
-    if(age<18)
-        goto ineligible;
-    else
-        printf("You are eligible to vote!");
+    printf("factorial of 5 is = %d", factorial(5));
     return 0;
 }
