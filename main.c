@@ -10,6 +10,7 @@ int factorial(int num)
 }
 int main()
 {
-    printf("factorial of 5 is = %d", factorial(5));
+    printf("factorial of 5 is = %d\n", factorial(5));
+    printf("HUHAHAHA!");
     return 0;
 }
